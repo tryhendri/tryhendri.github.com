@@ -1,16 +1,28 @@
+---
+layout: nil
+title : Atom Feed
+---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>{{ site.title }}</title>
+ <link href="{{ site.production_url }}/atom.xml" rel="self"/>
+ <link href="{{ site.production_url }}"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.production_url }}</id>
+ <author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
 
-  <title><![CDATA[Let us Learn from My Mistakes]]></title>
-  <link href="http://tryhendri.github.com/atom.xml" rel="self"/>
-  <link href="http://tryhendri.github.com/"/>
-  <updated>2012-02-01T10:46:03+07:00</updated>
-  <id>http://tryhendri.github.com/</id>
-  <author>
-    <name><![CDATA[Tryhendri]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
-  
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.production_url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.production_url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
 </feed>
