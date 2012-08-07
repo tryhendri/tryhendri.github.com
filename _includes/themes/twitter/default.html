@@ -38,21 +38,39 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-
-      <div class="content">
-        {{ content }}
-      </div>
-
-      <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
+    <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3">
+        <div class="well sidebar-nav">
+          <ul class="nav nav-list">
+            <li class="nav-header">Hire Me</li>
+            <li>
+              <a href="http://id.linkedin.com/pub/hendri-firmana/21/b3/75b">
+              <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View hendri firmana's profile on LinkedIn"></a>
+            </li>
+            <li>
+              <a href="https://www.odesk.com/users/~~bcb3855732509664"><img alt="oDesk Certified Ruby on Rails Programmer" src="https://www.odesk.com/api/exams/v1/5142013/image" /></a>
+            </li>
+            <li>
+              <a href="https://www.odesk.com/users/~~bcb3855732509664"><img alt="oDesk Certified Ruby on Rails Developer" src="https://www.odesk.com/api/exams/v1/5166912/image" /></a>
+            </li>
+            <li>
+              <a href="https://www.odesk.com/users/~~bcb3855732509664"><img alt="oDesk Certified jQuery Professional" src="https://www.odesk.com/api/exams/v1/5168850/image" /></a>
+            </li>
+            <li class="nav-header">Javascript Documentation</li>
+            <li><a href='https://developer.mozilla.org/en/JavaScript' title='Learn JS'><img src='http://static.jsconf.us/promotejsv.gif' height='180' width='160' alt='Learn JS'/></a></li>            
+          </ul>
+        </div><!--/.well -->
+      </div><!--/span-->
+      <div class="span9">
+        <div class="hero-unit">
+          <div class="content">
+            {{ content }}
+          </div>
+          </div>
+      </div>    
     </div> <!-- /container -->
+  </div>
 
     {% include JB/analytics %}
   </body>
