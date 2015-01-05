@@ -5,6 +5,7 @@ category: Git
 tags: [Development, Git]
 analytics : true
 ---
+{% include JB/setup %}
 
 Saya pernah punya pengalaman development dengan GIT hanya dengan menggunakan satu branch yaitu branch master, saya berkolaborasi degan lebih dari 8 orang developer. Saat itu semua developer baru switch dari SVN sehingga alam pikirannnya masih diselimuti oleh proses terpusat (centralized) dalam SVN. Saya masih ingat bahwa untuk commit harus menunggu antrian jika ada developer lain sedang commit...hhhmmmmmm.
 
@@ -15,7 +16,7 @@ hal sederhana yang bisa anda bayangkan jika ada bug dalam setiap realese. Apakah
 
 Dalam pikiran saya kenapa hal itu bisa terjadi karena pada waktu itu saya tidak paham konsep distributed version control yang diusung oleh git.  Cara git menghandel branching and merging cukup unik. proses untuk membuat branch atau pindah branch tidaklah sulit dan prosesnya cukup cepat. Git memiliki satu directory kerja yang isinya bisa kita ubah-ubah berdasarkan branch dimana kita bekerja dengan kata lain kita tidak membutuhkan directory baru untuk setiap branch yang kita buat.
 
-Sebagai ilustrasi sederhana, secara default saat kita menginisiasi project dengan menggunakan git sebagai version console maka maka kita ada di branch master
+Sebagai ilustrasi sederhana, secara default saat kita menginisiasi project dengan menggunakan git sebagai version console maka maka kita ada di branch master 
 
 		$ git branch
 		  * master
@@ -29,7 +30,7 @@ Sebagai ilustrasi sederhana, secara default saat kita menginisiasi project denga
 C0, C1, C2 adalah daftar riwayat commit
 
 
-selanjutanya jika kita ingin membuat banch baru dan berpindah ke branch baru maka
+selanjutanya jika kita ingin membuat banch baru dan berpindah ke branch baru maka 
 
 		$ git branch experiment
 		$ git checkout experiment
@@ -42,15 +43,15 @@ ilustrasinya seperti ini.
 
 <section role="banner">
   <img src="http://learn.github.com/images/branch/step2.png" />
-  <sup>sumber http://learn.github.com/images/branch/step2.png</sup>
+  <sup>sumber http://learn.github.com/images/branch/step2.png</sup>    
 </section>
 
 
 Dalam fikiran saya branch yang harus ada dalam setiap proses development adalah
 
-- Realese Branch, Branch yang kita gunakan untuk menandai realese code yang akan dideploy ke production yang kita merge dengan master
-
-- Working Branch, Branch yang digunakan oleh setiap anggota dalam tim. Jika satu task atau story telah selesai member tim bisa merging ke staging branch untuk di test.
+- Realese Branch, Branch yang kita gunakan untuk menandai realese code yang akan dideploy ke production yang kita merge dengan master  
+ 
+- Working Branch, Branch yang digunakan oleh setiap anggota dalam tim. Jika satu task atau story telah selesai member tim bisa merging ke staging branch untuk di test. 
 
 - Staging branch, Branch yang digunakan untuk test code sebelum dimerge dengan release.
 
@@ -60,7 +61,7 @@ Dalam fikiran saya branch yang harus ada dalam setiap proses development adalah
 
 
 
-Saya berfikir bahwa implementasi untuk setiap tim atau organisasi akan sangat berbeda, Tetapi nilai moral yang inbgin sya sampaikan adalah jika anda kerja di git pahami branch dan gunakan.
+Saya berfikir bahwa implementasi untuk setiap tim atau organisasi akan sangat berbeda, Tetapi nilai moral yang inbgin sya sampaikan adalah jika anda kerja di git pahami branch dan gunakan. 
 
 
 Jika anda ingin memahami lebih lanjut tentang flow dalam Git bisa bisa lihat [git-flow](https://github.com/nvie/gitflow)
