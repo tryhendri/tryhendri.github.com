@@ -3,7 +3,8 @@ layout: post
 title: "First Mistake : Development In Git Without Branch"
 category: Git
 tags: [Development, Git]
-analytics : true
+google_analytics : true
+comments  : true
 ---
 
 Saya pernah punya pengalaman development dengan GIT hanya dengan menggunakan satu branch yaitu branch master, saya berkolaborasi degan lebih dari 8 orang developer. Saat itu semua developer baru switch dari SVN sehingga alam pikirannnya masih diselimuti oleh proses terpusat (centralized) dalam SVN. Saya masih ingat bahwa untuk commit harus menunggu antrian jika ada developer lain sedang commit...hhhmmmmmm.
