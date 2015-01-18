@@ -9,7 +9,7 @@ body {
   color: #2c3e50;
   height: auto;
   min-height: 100%;
-  line-height: 1.4; 
+  line-height: 1.4;
   font-size: 18px;
 }
 
@@ -148,6 +148,7 @@ article.home h4 a:hover {
 
 footer {
 	padding-top: 15px;
+	font-size: 9px;
 	font-family: 'Ubuntu';
 }
 
