@@ -21,16 +21,8 @@ Sebagai ilustrasi sederhana, secara default saat kita menginisiasi project denga
 		$ git branch
 		  * master
 
-<section role="banner">
-  <img src="http://learn.github.com/images/branch/step1.png" />
-  <sup>sumber http://learn.github.com/images/branch/step1.png</sup>
-</section>
 
-
-C0, C1, C2 adalah daftar riwayat commit
-
-
-selanjutanya jika kita ingin membuat banch baru dan berpindah ke branch baru maka
+selanjutanya jika kita ingin membuat banch baru dan berpindah ke branch tersebut maka:
 
 		$ git branch experiment
 		$ git checkout experiment
@@ -38,13 +30,6 @@ selanjutanya jika kita ingin membuat banch baru dan berpindah ke branch baru mak
 		$ git branch
 		* experiment
   	  master
-
-ilustrasinya seperti ini.
-
-<section role="banner">
-  <img src="http://learn.github.com/images/branch/step2.png" />
-  <sup>sumber http://learn.github.com/images/branch/step2.png</sup>
-</section>
 
 
 Dalam fikiran saya branch yang harus ada dalam setiap proses development adalah

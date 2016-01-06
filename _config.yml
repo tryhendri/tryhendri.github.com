@@ -1,32 +1,28 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "http://tryhendri.github.io/" # the base hostname & protocol for your site
+title: "Hendri"
+header-tag: "My Journey"
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
-markdown: kramdown
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
 
-
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
 defaults:
   -
     scope:
-      path: "" # empty string for all files
+      path: ""
+      type: "pages"
     values:
-      title: Thoughts and Journeys
-
-description: Thoughts and Journeys
-author:
-  name: Tryhendri
-  email: hendri.firmana@gmail.com
-  github: tryhendri
-  twitter: h_firmana
-  facebook: hfirmana
-  linkedin: h_firmana@yahoo.co.id
-  bio: Thoughts and Journeys
-  email_md5: 8419e9b5109b4ad324a8a919c07d06f8
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
