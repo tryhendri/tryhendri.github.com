@@ -25,7 +25,7 @@ seminggu kemudian karena mendapatkan pengalaman Asus A9Rp saya bermasalah, saya 
 Tempat ketiga
 IBCC adalah tempat yang pertama kali saya masuki, saya langsung cari tempat penjualan *notebook* dan berkeliling mencari *Service Center*-nya Acer. saya tidak menemukannya hanya mendapatkan saran dari seorang penjaga di toko Acer bahwa <em>Service Center</em> Acer letaknya di Setrasari Mall dan Karapitan.
 
-Tempat Keempat>
+Tempat Keempat
 Setelah sampai ke jalan Karapitan saya cari *Service Center*-nya Acer, saya lupa lagi gedungnya. karena setelah mendapatkan petunjuk dari juru parkir saya langsung disuruh masuk dan diterima oleh seorang Customer Service prempuan saya juga lupa namanya. Dia hanya menanyakan keaslian SN-nya dan memberikan *advice* bahwa untuk merecovery data tinggal langsung aja tekan alt+F10 saat akan login, dijamin semua data anda terformat karana anda melakukan instalasi ulang vista anda.
 
 ya alloh betapa luas ilmu-Mu, betapa membahagiakannya saya mendapatkan ilmu berharga ini lewat sebuah pencarian. Ya Alloh limpahi kami denga ilmu dan kebaikanya...Ya Alloh saya tidak ingin menjadi pelupa dan pemalas terhadap Ilmu.

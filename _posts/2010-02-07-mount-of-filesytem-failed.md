@@ -20,8 +20,9 @@ comments  : true
 
 
 Pagi-pagi dah dapat error gak bisa booting ke system karena directory system unmount akibat listrik mati saat komputer lagi nyala. dengan dua langkah saja, alhamdulillah bisa selesai.
-
+{% highlight bash%}
     sudo fdisk -l
+{% endhighlight %}
 
 kemudian dilanjutkan dengan
 
